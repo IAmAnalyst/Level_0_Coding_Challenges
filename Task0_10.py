@@ -6,8 +6,8 @@ def commonCharacters(a,b):
     for i in a:
         for l in range(len(b)):
             if((i==b[l]) & ~(i in common)):
-                common+=i+','  
-    for k in range(len(common)-1): 
+                common+=i+', '  
+    for k in range(len(common)-2): 
         s+=common[k]
 
     return "The common characters/letters:"+s+'.'
