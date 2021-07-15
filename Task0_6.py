@@ -1,6 +1,5 @@
-import math
-def Maximum(*args):
-    max=-math.inf    #n case we have to include negative numbers
+def Maximum(*args):  #*args allows function to accept any number of arguments     
+    max=-9999999999   #n case we have to include negative numbers
     for i in args:
         for l in range(len(args)):
             if max<i:

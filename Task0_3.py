@@ -1,4 +1,4 @@
 def hello(n):
-    print("Hello "+n+"!")
+    print(f'Hello {n}!')
 
 hello("Philani") #call the hello function   
